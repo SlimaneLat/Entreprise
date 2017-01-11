@@ -9,10 +9,13 @@ public class Main {
         double inI;
         int inIH;
         Employe Tab[]=new Employe[3];
-        Empl_PT SP = new Empl_PT();
-        Empl_TPT FF = new Empl_TPT();
-        Tab[1] = SP;
-        Tab[2] = FF;
+               Employe Tab[]= new Employe[3];
+      
+        Tab[0] = new Employe();
+
+        Tab[1] = new Empl_PT();
+        Tab[2] = new Empl_TPT();
+
         for(int i=0;i<3;i++){
             System.out.println("SVP donnez le nom de votre Employe");
             inS = s.nextLine();
